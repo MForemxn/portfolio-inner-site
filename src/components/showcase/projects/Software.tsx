@@ -122,9 +122,9 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/henryheffernan"
+                        href="https://twitter.com/MForemxn"
                     >
-                        @henryheffernan
+                        @MForemxn
                     </a>
                 </p>
             </div>
