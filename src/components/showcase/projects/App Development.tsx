@@ -86,34 +86,30 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <h2>TurboUp</h2>
             <br />
             <p>
-                Only about a month after taking a step away from house I started
-                working on a mid-tempo track which I called edge. I did a lot of
-                experimenting with this track, and to this day I'm very proud
-                with how it turned out. I never got around to finishing it up
-                and giving it a proper outro, but I'm still very happy with it's
-                current state.
+                In late 2023 I started aiding in the development of the
+                TurboUp App, which was a truly amazing experience. I was
+                a cofounder of the project, and was in charge of everything
+                from frontend development, to marketing, to backend
+                development, and even merch designing. This allowed me to
+                work on a bigger project, with a team, and allowed me to
+                further expand on my knowledge and skills.
             </p>
             <br />
-            <MusicPlayer
-                src={edge}
-                title="Edge [W.I.P.]"
-                subtitle="Henry Heffernan - 2021"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
+            <div className="captioned-image">
+                <img src={girlRun} alt="" />
             <br />
             <p>
-                This track is so dark and I love it! The bass and percussion are
-                the obvious stars of the piece, and I had a blast designing each
-                of them. The bass in this song is layered with a lot of textures
-                and they really give it a lot of the character it needs to be
-                the driving force of the track. The percussion on the other hand
-                gives the track a lot of depth in the high end so when
-                juxtaposed with the bass it radiates this dark and mysterious
-                vibe.
+                This project was initially written in SwiftUI,
+                however after wanting to expand it to the Andriod market,
+                we decided to move the whole application to React Native.
+                This was the first time I had written for multiplatform apps,
+                and once again was a great learning experience. Whilst doing
+                this, I was still managing the social media accounts, as well
+                as the merchandise. All in all, was a big effort, but every part
+                of the experience was helpful and enjoyable.
             </p>
             <br />
-            <h2>My love for Drum & Bass</h2>
+            <h2>heading</h2>
             <br />
             <p>
                 I've always loved drum & bass, and over the years I feel like I

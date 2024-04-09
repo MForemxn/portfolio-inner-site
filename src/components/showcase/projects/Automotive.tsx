@@ -42,6 +42,20 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                             myself, original sprite by kevink
                         </sub>
                     </p>
+                    <h2>@Bluey on Tiktok</h2>
+                    <br />
+                    <p>
+                        Once I got my car, I fell in love and started making short TikTok videos as an excuse...
+                    </p>
+                    <br />
+                    <div className="captioned-image">
+                        <img src={girlRun} alt="" />
+                        <p>
+                            <sub>
+                                <b>Figure 1:</b> Eight Frame Run cycle animated by
+                                myself, original sprite by kevink
+                            </sub>
+                        </p>
                 </div>
                 <p>
                     I really started enjoying the work I was doing, and felt I
