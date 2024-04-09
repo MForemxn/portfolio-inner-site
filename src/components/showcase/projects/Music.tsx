@@ -180,6 +180,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             </p>
             <br />
         </div>
+        </div>
     );
 };
 

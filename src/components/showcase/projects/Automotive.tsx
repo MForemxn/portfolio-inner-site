@@ -125,6 +125,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     {/* <h3> Screen record time-lapses and make gifs</h3> */}
                 </div>
             </div>
+        </div>
             );
             };
 
