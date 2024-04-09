@@ -10,6 +10,7 @@ import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
+import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
 
 export interface MusicProjectsProps {}
 
@@ -23,41 +24,41 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    Music has been a passion of mine for my whole life. When I
-                    was 15 years old, I downloaded FL Studio and started to
-                    produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction and in 2016 created the now
-                    popular discord server EDM Production with over 14k members.
+                    App development has been a passion of mine since early high
+                    school. It was my first real venture into software development,
+                    and allowed me to very easily learn and train myself to write
+                    better code, all while creating cool projects along the way.
                 </p>
                 <br />
                 <p>
-                    I don't release the music that I make publicly as I not only
+                    I don't release the apps that I make publicly as I not only
                     find it difficult to finish songs, but also it's not a
-                    priority of mine since I produce mostly because I enjoy the
+                    priority of mine since I develop mostly because I enjoy the
                     process of learning and creating. However if I am going to
-                    dedicate a whole page of my portfolio to my music, you bet
+                    dedicate a whole page of my portfolio to my apps, you bet
                     I'll have some examples to showoff.
                 </p>
                 <br />
                 <p>
-                    Below are some more recent Musical Endeavors I've been
-                    working on. I hope you enjoy the music and enjoy the stories
-                    behind each of the tracks.
+                    Below are some more recent app development endevours I've been
+                    working on. I hope you enjoy the experiences and enjoy the stories
+                    behind each of the projects.
                 </p>
             </div>
-            <h2>Exploring house</h2>
+            <h2>Financial Management App</h2>
             <br />
             <p>
-                In 2020 I went through a phase of really enjoying house. Some of
-                my favorite artists at the time were Malaa, Chirs Lake, Kyle
-                Walker and many more. Inspired, I decided to take a stab at
-                making some house tracks.
+                In 2021, for my highschool software development major work, I developed
+                a financial tracking application aimed at teenagers. This app would
+                better allow them to view, track, and make changes to their savings
+                and spending goals, by encorporating a fun GUI and a easy to use layout.
             </p>
             <br />
             <p>
-                I failed a few times as I wasn't really able to nail the style
-                and groove I was going for but ultimately ended up creating the
-                piece below.
+                This app was never properly finished, as I didn't have the resources
+                to pay for API access to banks, and had to setup my own dummy server
+                instead. I have included some screenshots below of the app,
+                and a link to try it out is on my github.
             </p>
             <br />
 
@@ -72,31 +73,22 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <br />
             <div className="captioned-image">
-                <img src={houseProject} alt="" />
+                <img src={girlRun} alt="" />
                 <p>
                     <sub>
-                        <b>Figure 1:</b> A screenshot of the project file of
-                        Timeless. 64 tracks in total.
+                        <b>Figure 1:</b> A collage of screenshots of the Fundy app.
                     </sub>
                 </p>
             </div>
             <p>
-                I love so much about this track. I'm particularly very proud of
-                the composition and the trichotomy of the happy upbeat energy in
-                the intro and first drop, into the rich and euphoric bridge,
-                before delving into the darkness of the final build and drop. I
-                had an absolute blast making this back in the fall of 2020, and
-                every time I revisit it to tweak it just a little more, I have
-                so much fun.
+                This app gave me a great excuse to teach myself SwiftUI,
+                Objective C, and also some JSON. It was a great experience
+                being able to learn with a specific purpose in mind, as
+                well as an end goal. This was truely a great experience,
+                and I believe that without it, my job and hobbies would be
+                wildly different.
             </p>
             <br />
-            <p>
-                After making this track around fall 2020, my interest for house
-                overall was tapering off. Around this time I was starting to go
-                to the gym more consistently and ended up listening to a lot
-                more hard bass music, specifically drum & bass, mid tempo and of
-                course dubstep.
-            </p>
             <br />
             <h2>Mid-Tempo?</h2>
             <br />
