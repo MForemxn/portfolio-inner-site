@@ -109,7 +109,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 of the experience was helpful and enjoyable.
             </p>
             <br />
-            <h2>heading</h2>
+            <h2>My love for Drum & Bass</h2>
             <br />
             <p>
                 I've always loved drum & bass, and over the years I feel like I
