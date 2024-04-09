@@ -10,71 +10,51 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Easter Egg Warehouse</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://www.eastereggwarehouse.com.au/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>eastereggwarehouse.com.au</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>IT Consultant</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>Feb 2021 - Present</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                    What started as a simple part time retail job, has progressed into
+                    a IT Consultant role. My key responsibilities include site maintenance,
+                    internal IT systems maintenance, new information systems implimentation,
+                    and much more.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                            🛒 Bringing a blend of customer service and tech
+                            expertise to the Easter Egg Warehouse, I serve as
+                            a dedicated Retail Staff member and occasional IT support.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
+                            🐣 My focus on creating delightful customer
+                            experiences aligns with ensuring the smooth operation
+                            of our warehouse through handling occasional technical
+                            challenges.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
+                            💻 Balancing the sweetness of retail with the precision
+                            of IT, I contribute to a seamless and efficient work environment.
                         </p>
                     </li>
                 </ul>
@@ -82,55 +62,57 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>Code Camp</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            href={'https://www.codecamp.com.au/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>codecamp.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Part Time Holiday Camp Teacher</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>Jan 2022 - Present</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
+                    Shared my love of technology with the new generation through holiday
+                    camp facilitating and teaching. These 2-3 day camps are of school aged
+                    children, about various different topics surrounding technology and
+                    computers. Through this, I was able to test my knowledge and improve
+                    upon it through teaching.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                            🚀 Joining Code Camp as the Head Teacher, I lead a
+                            dynamic team in providing immersive and engaging
+                            tech education experiences for students aged 5-13
+                            during holiday camps.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                            🌐 My role involves crafting a curriculum that
+                            combines creativity and learning, ensuring each
+                            child discovers the exciting world of coding,
+                            robotics, and digital innovation.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                            💡 As a passionate advocate for tech education, I
+                            foster a supportive environment that encourages
+                            curiosity and critical thinking. Together with my
+                            team, we inspire the next generation of tech
+                            enthusiasts, equipping them with valuable skills for
+                            the future.
                         </p>
                     </li>
                 </ul>
@@ -138,101 +120,60 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>TurboUp</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'https://www.turboup.com/'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>turboup.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Developer | Co-founder | Marketing</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>Jun 2023 - Present</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
+                    Passionate about merging innovation with community, I lead
+                    the charge as the Developer, Co-founder, and Marketing at
+                    TurboUp. In the driver's seat from day one, I've spearheaded
+                    the development of TurboUp, a groundbreaking social platform
+                    designed exclusively for car enthusiasts.
                 </p>
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
                 <ul>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                            👨‍💻 Developer: Driving the technical vision, I
+                            navigate the coding highway, steering TurboUp toward
+                            a seamless user experience. From the engine room to
+                            the user interface, my mission is to revitalize the
+                            digital landscape for car aficionados.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                            🤝 Co-founder: In the trenches from the ideation
+                            stage, I co-founded TurboUp to revolutionize how the
+                            car community connects. Every line of code and
+                            strategic decision is geared toward fostering a
+                            vibrant, dynamic space for car enthusiasts to share
+                            their passion.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Hightown</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Bull</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
+                            📢 Marketing: Beyond coding, I wear the hat of Head
+                            of Marketing, fueling TurboUp's reach. Crafting
+                            campaigns that resonate, I accelerate our brand
+                            awareness and drive engagement. TurboUp isn't just
+                            an app; it's a movement, and I'm steering the
+                            marketing wheel.
                         </p>
                     </li>
                 </ul>

@@ -131,7 +131,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <br />
             </div>
             <div className="text-block">
-                <h2>masonforeman.au</h2>
+                <h2>masonforeman.com</h2>
                 <br />
                 <p>
                     masonforeman.com is my personal portfolio website,
