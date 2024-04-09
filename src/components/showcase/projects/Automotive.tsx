@@ -8,31 +8,30 @@ export interface ArtProjectsProps {}
 const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Art & Design</h1>
+            <h1>Automotive Mechanics</h1>
             <h3>Endeavors</h3>
             <br />
             <div className="text-block">
                 <p>
-                    While I love programming and software development, Art,
-                    Design, and Animation will always hold a special place in my
-                    heart.
+                    While I love programming and software development, cars,
+                    engines, and anything automotive will always hold a special
+                    place in my heart.
                 </p>
                 <br />
                 <p>
                     Here are a few projects/things I've done over the years to
-                    keep the artistic side of me alive. I'm always looking to
-                    push myself creatively and learn new things.
+                    keep the motoring side of me alive.
                 </p>
             </div>
             <div className="text-block">
-                <h2>Pixel Art and Animation</h2>
+                <h2>UTS Motorsports</h2>
                 <br />
                 <p>
-                    In high school, I started learning how to draw and animate
-                    pixel art after becoming interested in video game
-                    development. As I worked on making games over the years, I
-                    learned so much about pixel art and fell in love with
-                    animation.
+                    In university, I was invited to join the UTS:ME team, competing
+                    in the F:SAE competition. I was on the software team, and was
+                    tasked to create a realtime telemetry system with a small team.
+                    Alongside this, I further helped with maintainence of the car itself,
+                    helping me further my knowledge and love of cars.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -46,11 +45,10 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </div>
                 <p>
                     I really started enjoying the work I was doing, and felt I
-                    was improving a lot. Around 2017, I started to upload videos
-                    of my work flow and animation process to YouTube just for
-                    fun. I was really surprised however when my first video took
-                    off and got a few thousand views! Below are the video links
-                    to the work I uploaded to youtube.
+                    was improving a lot. Around 2024, I started to even work on
+                    making a realistic racing simulator for driver training.
+                    This was just running Asseto Corsa, however was able to be
+                    customised into realistic environments and charecteristics.
                 </p>
                 <br />
                 <h3>Video Links:</h3>
@@ -98,18 +96,16 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     <img src={gsts} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 2:</b> More pixel art: Enemy Lineup from a
-                            game I worked on called Guntattchment Saga
+                            <b>Figure 2:</b> My Own Little Project Car: 2016 Series 2 VF Commodore
                         </sub>
                     </p>
                 </div>
                 <br />
                 <p>
                     This page is currently a work in progress. I've recently
-                    found myself wanting to make more pixel art recently and I
-                    have some project plans and ideas in the works. Expect
-                    updates to this page as I dive back into the world of pixel
-                    art!
+                    found myself wanting to make more modifications to my car,
+                    and I have some project plans and ideas in the works. Expect
+                    updates to this page as I dive back into the world of car mods!
                 </p>
                 {/* <h3> Screen record time-lapses and make gifs</h3> */}
             </div>
