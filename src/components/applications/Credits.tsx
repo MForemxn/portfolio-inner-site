@@ -7,6 +7,10 @@ export interface CreditsProps extends WindowAppProps {}
 
 const CREDITS = [
     {
+        title: 'Writing',
+        rows: [['Mason Foreman', 'All']],
+    },
+    {
         title: 'Engineering & Design',
         rows: [['Henry Heffernan', 'All']],
     },
@@ -78,7 +82,6 @@ const Credits: React.FC<CreditsProps> = (props) => {
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2022 Henry Heffernan'}
         >
             <div
                 onMouseDown={nextSlide}
