@@ -61,8 +61,6 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 and a link to try it out is on my github.
             </p>
             <br />
-
-
             <br />
             <br />
             <div className="captioned-image">
@@ -81,7 +79,6 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 and I believe that without it, my job and hobbies would be
                 wildly different.
             </p>
-            <br />
             <br />
             <h2>TurboUp</h2>
             <br />
@@ -128,13 +125,6 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 buildup and drop.
             </p>
             <br />
-            <MusicPlayer
-                src={dnb}
-                title="Break [Demo]"
-                subtitle="Henry Heffernan - 2019/2022"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
             <br />
             <p>
                 Like I said, I decided to come back to this track because I
@@ -146,13 +136,6 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 because it is drum and bass after all!
             </p>
             <br />
-            <MusicPlayer
-                src={dnbDrums}
-                title="Break [Drums and Sub]"
-                subtitle="Henry Heffernan - 2019/2022"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
             <br />
             <div className="captioned-image">
                 <img src={dnbDrumsProject} alt="" />
