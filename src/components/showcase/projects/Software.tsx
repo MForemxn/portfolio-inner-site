@@ -24,18 +24,17 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>TurboUp App</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
-                    website you are on right now. This project was an absolute
-                    joy to make and challenged me both technically and
-                    creatively. Early in 2022, I knew I wanted to make an
-                    interactive portfolio to aid my job search. I eventually got
-                    the idea for this site around early February and began
-                    development early March. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
-                    pretty much done!
+                    In late 2023 I started aiding in the development of the
+                    TurboUp App, which was a truly amazing experience. TurboUp
+                    was designed to be a social media app for car enthusiasts. I was
+                    a cofounder of the project, and was in charge of everything
+                    from frontend development, to marketing, to backend
+                    development, and even merch designing. This allowed me to
+                    work on a bigger project, with a team, and allowed me to
+                    further expand on my knowledge and skills.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -49,34 +48,25 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </p>
                 </div>
                 <p>
-                    Now, a quick technical breakdown of the site. The website is
-                    split into two parts, the 3D site, and the 2D OS site. The
-                    3D site uses Three.js to render the scene and renders the 2D
-                    site inside of it using an iframe. The 2D OS site is a
-                    simple react site that is hosted{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://henryheffernan.vercel.app/"
-                    >
-                        here
-                    </a>{' '}
-                    and works as a standalone web app. The actual rendering of
-                    the 2D site is accomplished using a CSS renderer provided by
-                    Three.js that transforms the html of the 2D site with 3D CSS
-                    transforms to give the illusion of three dimensionality.
+                    This project was initially written in SwiftUI,
+                    however after wanting to expand it to the Andriod market,
+                    we decided to move the whole application to React Native.
+                    This was the first time I had written for multiplatform apps,
+                    and once again was a great learning experience. Whilst doing
+                    this, I was still managing the social media accounts, as well
+                    as the merchandise. All in all, was a big effort, but every part
+                    of the experience was helpful and enjoyable.
                 </p>
-                <br />
                 <h3>Links:</h3>
                 <ul>
                     <li>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="https://apps.apple.com/au/app/turboup-photo-sharing-car-app/id1436441965"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>[iOS App Store]</b> - TurboUp App
                             </p>
                         </a>
                     </li>
@@ -84,36 +74,15 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.vercel.app/"
+                            href="https://play.google.com/store/apps/details?id=com.Stripway.Stripway&hl=en_GB&gl=US"
                         >
                             <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/portfolio-website"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - 3D Site Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - OS Site Repository
+                                <b>[Google Play Store]</b> - TurboUp App
                             </p>
                         </a>
                     </li>
                 </ul>
+                <br />
                 <p>
                     I'm skipping over a lot of details in exchange for brevity,
                     but I do plan on doing a more in depth breakdown for those
@@ -129,94 +98,15 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
             </div>
             <div className="text-block">
-                <h2>Guntattchment Saga The Sequel</h2>
+                <h2>UTS:ME Live Telemetry</h2>
                 <br />
                 <p>
-                    Guntattchment Saga or GSTS is a game I made with my good
-                    friend Scott Bass back in 2019. The game is a wave based top
-                    down shooter where you progress by building the most
-                    outrageous of weapons through attaching as many attachments
-                    on your weapon as you can. The game ceased development in
-                    2019 because we unfortunately both had packed school
-                    schedules and were unable to find the time to work on it.
-                </p>
-                <br />
-                <div className="captioned-image">
-                    <VideoAsset src={saga} />
-                    <div style={styles.caption}>
-                        <p>
-                            <sub>
-                                <b>Figure 2: </b> Guntattchment Saga Gameplay
-                                demo, featuring the main character along with a
-                                few of our grunt and dasher enemies.
-                            </sub>
-                        </p>
-                    </div>
-                </div>
-                <p>
-                    Guntattchment Saga was a really fun project to work on and
-                    had a multitude of challenges. An interesting challenge that
-                    you may not even notice was the rotation of objects such as
-                    the players weapon. Rotating pixel art is a very difficult
-                    thing to do because in the world of pixels you are dealing
-                    with such a little amount of information. Even a single
-                    misplaced pixel can cause a sprite to read in a totally
-                    different and unintended way. To deal with this we developed
-                    an algorithm to prioritize outlines, while rotating the
-                    insides with a simple Nearest Neighbor algorithm. Doing so
-                    resulted in a relatively readable sprite when rotating
-                    sprites. It was a surprisingly difficult challenge as it
-                    intersected both art and programming, but was fun to work on
-                    overall.
-                </p>
-                <br />
-                <h3>Links:</h3>
-                <ul>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/scottbass47/gsts"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Unity Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/gsts_assets"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Assets Repository
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                <p>
-                    Unfortunately, the game currently is not in a releasable
-                    state and so there is no demo available online. If this ever
-                    changes, however, a link to the game will be added here.
-                </p>
-            </div>
-            <div className="text-block">
-                <h2>Skip the Scroll</h2>
-                <br />
-                <p>
-                    While working at Hover, I spent a lot of time on GitHub
-                    issue pages looking for answers and solutions to problems I
-                    had run into. I would always find myself sifting though the
-                    comments trying to find the right answer, which usually had
-                    the most upvotes and positive reactions. With that
-                    information, I decided to create a very simple chrome
-                    extension that would sift through all the comments on the
-                    page, sort them by positive reactions, and then allow you to
-                    traverse them from most positive reactions to least positive
-                    reactions.
+                    While studying at UTS, I spent a lot of time on the motorsports
+                    team, working on various projects. My most significant one was a
+                    live telemetry system in order to pull data from the car, process
+                    it, send it to a server, and allow us to view the data in a helpful
+                    GUI in order for us to make timely changes to the driving style based
+                    on the vitals of the car.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -230,48 +120,38 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </p>
                 </div>
                 <p>
-                    The extension is open source and currently released on the
-                    Chrome web store. Skip the Scroll is obviously not a project
-                    with massive scope, but was fun to make and dive into the
-                    world of browser extensions. I wanted to showcase since it's
-                    a developer tool and I wanna give it some visibility for
-                    those who might find it useful.
+                    This project allowed me to learn a lot of new skills, with the
+                    most important one being AWS skills. This project, in it's
+                    essence, pulled data from the Canbus located on the car, pulls
+                    it onto a Raspberry Pi, runs it through a python script to
+                    process it, then a different script sends it up to an AWS server.
+                    From there, it is shifted to a AWS timestream database, where it
+                    is pulled into a java script and displayed in a easy to view GUI.
                 </p>
                 <br />
-                <h3>Links:</h3>
-                <ul>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/skip-the-scroll"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - Skip the Scroll Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://chrome.google.com/webstore/detail/skip-the-scroll/mfehannpjmgfagldoilpngeoecdfgmnd"
-                        >
-                            <p>
-                                <b>[Chrome Web Store]</b> - Skip the Scroll
-                            </p>
-                        </a>
-                    </li>
-                </ul>
+            </div>
+            <div className="text-block">
+                <h2>masonforeman.au</h2>
+                <br />
                 <p>
-                    If you are a developer and have also found yourself
-                    scrolling through github comment after github comment saying
-                    "i also have this problem...", then I highly recommend you
-                    check out Skip the Scroll to save you some of your precious
-                    time. If you like it, feel free to star it on GitHub and
-                    rate it on the Chrome web store.
+                    masonforeman.com is my personal portfolio website,
+                    and is the one you are currently on. Now I am
+                    taking no credit for any part of this project,
+                    all credit goes to Henry Heffernan, who is very
+                    talented and designed and developed this whole site.
+                    Him and his team are credited in the credits page.
+                    I highly recommend you go and check out his stuff.
+                    What I did do however was write the content to be a
+                    fun and engaging way to view my projects and endeavours.
+                </p>
+                <br />
+                <p>
+                    Unfortunately, the game currently is not in a releasable
+                    state and so there is no demo available online. If this ever
+                    changes, however, a link to the game will be added here.
                 </p>
             </div>
+
             <ResumeDownload />
         </div>
     );
