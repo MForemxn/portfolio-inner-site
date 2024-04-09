@@ -32,7 +32,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 <br />
                 <p>
                     I don't release the apps that I make publicly as I not only
-                    find it difficult to finish songs, but also it's not a
+                    find it difficult to finish apps, but also it's not a
                     priority of mine since I develop mostly because I enjoy the
                     process of learning and creating. However if I am going to
                     dedicate a whole page of my portfolio to my apps, you bet
@@ -45,7 +45,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                     behind each of the projects.
                 </p>
             </div>
-            <h2>Financial Management App</h2>
+            <h2>Fundy Financial Tracking App</h2>
             <br />
             <p>
                 In 2021, for my highschool software development major work, I developed
@@ -62,13 +62,6 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             </p>
             <br />
 
-            <MusicPlayer
-                src={house}
-                title="Timeless"
-                subtitle="Henry Heffernan - 2022"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
 
             <br />
             <br />
@@ -90,7 +83,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             </p>
             <br />
             <br />
-            <h2>Mid-Tempo?</h2>
+            <h2>TurboUp</h2>
             <br />
             <p>
                 Only about a month after taking a step away from house I started
