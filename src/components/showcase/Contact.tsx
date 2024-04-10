@@ -120,7 +120,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                     />
                     <SocialBox
                         icon={inIcon}
-                        link={'https://www.linkedin.com/in/mason-foreman-219476292/?originalSubdomain=au'}
+                        link={'linkedin.com/in/mason-foreman-219476292'}
                     />
                     <SocialBox
                         icon={twitterIcon}
@@ -130,7 +130,7 @@ const Contact: React.FC<ContactProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    I am currently employed, however if you have any
+                    I am currently searching for a new position,so if you have any
                     opportunities, feel free to reach out - I would love to
                     chat! You can reach me via my personal email, or fill out
                     the form below!
