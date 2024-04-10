@@ -68,7 +68,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 <img src={girlRun} alt="" />
                 <p>
                     <sub>
-                        <b>Figure 1:</b> A collage of screenshots of the Fundy app.
+                        <b>Figure 1:</b> Some early UI ideas of Fundy
                     </sub>
                 </p>
             </div>

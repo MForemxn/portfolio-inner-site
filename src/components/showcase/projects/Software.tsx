@@ -3,10 +3,12 @@ import React from 'react';
 import saga from '../../../assets/pictures/projects/software/saga.mp4';
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
+import gsts from '../../../assets/pictures/projects/art/gsts.png';
 // @ts-ignore
-import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+// import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
+import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
 
 export interface SoftwareProjectsProps {}
 
@@ -38,12 +40,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={computer} />
+                    <img src={gsts} alt="" />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 1:</b> Blender Scene of the 3D website.
-                            The scene from Blender was baked and exported in a
-                            GLTF format.
+                            <b>Figure 1:</b> Some Screenshots of the TurboUp UI
                         </sub>
                     </p>
                 </div>
@@ -146,9 +146,22 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <p>
-                    Unfortunately, the game currently is not in a releasable
-                    state and so there is no demo available online. If this ever
-                    changes, however, a link to the game will be added here.
+                    Now, a quick technical breakdown of the site. The website is
+                    split into two parts, the 3D site, and the 2D OS site. The
+                    3D site uses Threejs to render the scene and renders the 2D
+                    site inside of it using an iframe. The 2D OS site is a simple
+                    react site that is hosted {' '}
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://portfolio-inner-site-iota.vercel.app/"
+                    >
+                        here
+                    </a> and works as a standalone web
+                    app. The actual rendering of the 2D site is accomplished
+                    using a CSS renderer provided by Threejs that transforms the
+                    html of the 2D site with 3D CSS transforms to give the illusion
+                    of three dimensionality.
                 </p>
             </div>
 
