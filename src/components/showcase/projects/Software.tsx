@@ -136,7 +136,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <p>
                     masonforeman.com is my personal portfolio website,
                     and is the one you are currently on. Now I am
-                    taking no credit for any part of this project,
+                    taking no credit for the idea behind this project,
                     all credit goes to Henry Heffernan, who is very
                     talented and designed and developed this whole site.
                     Him and his team are credited in the credits page.
