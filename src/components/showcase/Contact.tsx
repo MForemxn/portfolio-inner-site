@@ -137,6 +137,18 @@ const Contact: React.FC<ContactProps> = (props) => {
                 </p>
                 <br />
                 <p>
+                    Also, if you wanted to book a meeting with me, feel free to
+                    check out my personal booking page {' '}
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://usemotion.com/meet/mason-foreman/meeting"
+                    >
+                        here.
+                    </a>
+                </p>
+                <br />
+                <p>
                     <b>Email: </b>
                     <a href="mailto:mason.foreman@icloud.com">
                         mason.foreman@icloud.com
@@ -253,15 +265,15 @@ const Contact: React.FC<ContactProps> = (props) => {
 const styles: StyleSheetCSS = {
     form: {
         flexDirection: 'column',
-        marginTop: 32,
+        marginTop: 32
     },
     formItem: {
         marginTop: 4,
-        marginBottom: 16,
+        marginBottom: 16
     },
     socialImage: {
         width: 36,
-        height: 36,
+        height: 36
     },
     buttons: {
         justifyContent: 'space-between',

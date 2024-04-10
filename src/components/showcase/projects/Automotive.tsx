@@ -77,12 +77,6 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </p>
                 <br />
             </div>
-            <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@blueyvf" data-unique-id="blueyvf"
-                        data-embed-type="creator">
-                <section><a target="_blank"
-                            href="https://www.tiktok.com/@blueyvf?refer=creator_embed">@blueyvf</a></section>
-            </blockquote>
-            <script async src="embed.js"></script>
             <br />
 
             <h3>Links:</h3>
