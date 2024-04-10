@@ -57,7 +57,7 @@ const Contact: React.FC<ContactProps> = (props) => {
         try {
             setIsLoading(true);
             const res = await fetch(
-                'https://api.henryheffernan.com/api/contact',
+                'http://192.168.1.171:8080/api/send-email',
                 {
                     method: 'POST',
                     headers: {
@@ -120,7 +120,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                     />
                     <SocialBox
                         icon={inIcon}
-                        link={'https://www.linkedin.com/in/MasonForeman/'}
+                        link={'https://www.linkedin.com/in/mason-foreman-219476292/?originalSubdomain=au'}
                     />
                     <SocialBox
                         icon={twitterIcon}
