@@ -138,7 +138,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     and is the one you are currently on. Now I am
                     taking no credit for the idea behind this project,
                     all credit goes to Henry Heffernan, who is very
-                    talented and designed and developed this whole site.
+                    talented and creative.
                     Him and his team are credited in the credits page.
                     I highly recommend you go and check out his stuff.
                     What I did do however was write the content to be a
