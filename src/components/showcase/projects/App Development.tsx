@@ -11,7 +11,7 @@ import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
-import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
+import girlRun from '../../../assets/pictures/projects/art/girl-run.png';
 
 export interface MusicProjectsProps {}
 
@@ -65,7 +65,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <br />
             <div className="captioned-image">
-                <img src={gsts} alt="" />
+                <img src={girlRun} alt="" />
                 <p>
                     <sub>
                         <b>Figure 1:</b> A collage of screenshots of the Fundy app.
@@ -95,7 +95,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             </p>
             <br />
             <div className="captioned-image">
-                <img src={girlRun} alt="" />
+                <img src={gsts} alt="" />
             <br />
             <p>
                 This project was initially written in SwiftUI,
