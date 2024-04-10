@@ -88,3 +88,8 @@ div {
         background-color: white;
     }
 }
+
+blockquote {
+    max-width: 780px;
+    min-width: 288px;
+}

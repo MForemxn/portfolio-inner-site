@@ -2,6 +2,7 @@ import React from 'react';
 
 import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
+import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 
 export interface ArtProjectsProps {
 }
@@ -74,12 +75,14 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                         here.
                     </a>
                     <br />
+                    <div>
                     <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@blueyvf" data-unique-id="blueyvf"
-                                data-embed-type="creator" style="max-width: 780px; min-width: 288px;">
+                                data-embed-type="creator">
                         <section><a target="_blank"
                                     href="https://www.tiktok.com/@blueyvf?refer=creator_embed">@blueyvf</a></section>
                     </blockquote>
                     <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
                 </p>
                 <br />
             </div>
@@ -113,7 +116,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
             </ul>
             <br />
             <div className="captioned-image">
-                <img src={gsts} alt="" />
+                <img src={houseProject} alt="" />
                 <p>
                     <sub>
                         <b>Figure 2:</b> My Own Little Project Car: 2016 Series 2 VF Commodore
