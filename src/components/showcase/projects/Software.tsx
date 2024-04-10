@@ -5,7 +5,7 @@ import saga from '../../../assets/pictures/projects/software/saga.mp4';
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 // @ts-ignore
-// import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
