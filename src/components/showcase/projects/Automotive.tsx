@@ -74,6 +74,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     >
                         here.
                     </a>
+                </p>
                     <br />
                     <br />
                     <br />
@@ -85,7 +86,6 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                                     href="https://www.tiktok.com/@blueyvf?refer=creator_embed">@blueyvf</a></section>
                     </blockquote>
                     <script async src="embed.js"></script>
-                </p>
                 <br />
             </div>
             <br />
