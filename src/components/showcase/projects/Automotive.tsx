@@ -75,19 +75,14 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                         here.
                     </a>
                 </p>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@blueyvf" data-unique-id="blueyvf"
-                                data-embed-type="creator">
-                        <section><a target="_blank"
-                                    href="https://www.tiktok.com/@blueyvf?refer=creator_embed">@blueyvf</a></section>
-                    </blockquote>
-                    <script async src="embed.js"></script>
                 <br />
             </div>
+            <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@blueyvf" data-unique-id="blueyvf"
+                        data-embed-type="creator">
+                <section><a target="_blank"
+                            href="https://www.tiktok.com/@blueyvf?refer=creator_embed">@blueyvf</a></section>
+            </blockquote>
+            <script async src="embed.js"></script>
             <br />
 
             <h3>Links:</h3>
@@ -134,8 +129,8 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
             </p>
             {/* <h3> Screen record time-lapses and make gifs</h3> */}
         </div>
-)
-    ;
+    )
+        ;
 };
 
 export default ArtProjects;
