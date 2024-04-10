@@ -16,9 +16,10 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a university student currently studuing at University of
+                    Technology Sydney. I am set to graduate in 2027 with my
+                    Bachelors in IT, with a Cybersecurity and Networking Major,
+                    and my Diploma in IT Professional Practice.
                 </p>
                 <br />
                 <p>
@@ -41,10 +42,8 @@ const About: React.FC<AboutProps> = (props) => {
                     worked. This naturally led me to become absolutely obsessed
                     with Lego and I fell in love with building things. In
                     elementary school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    local primary school, which was my first real exposure to
+                    programming.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -60,30 +59,22 @@ const About: React.FC<AboutProps> = (props) => {
                 <p>
                     I started programming more seriously in high school,
                     initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
-                    multiple game projects, apps, and more. One of these
+                    I went on to do a ton of passion projects. One of these
                     projects is viewable on my{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
+                    In 2023, I got accepted into University of Technology Sydney
+                    to study Information Technology. It was my first choice
                     and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                    university. Whilst at university, I held a part time job at
+                    the Easter Egg Warehouse. Whilst this initially started as a
+                    warehouse and retail job, I was soon able to start working
+                    on some IT projects, primarily focusing on frontend work.
+                    As of 2024, I still work there, and I continue to work on
+                    various IT projects. I am currently looking for a new role
+                    in the IT sector.
                 </p>
                 <br />
                 <br />
@@ -99,30 +90,24 @@ const About: React.FC<AboutProps> = (props) => {
                         <h3>My Hobbies</h3>
                         <br />
                         <p>
-                            Beyond software, I have a lot of hobbies that I
-                            enjoy doing in my free time. The more tangible
+                            Beyond university and work, I have a lot of hobbies
+                            that I enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
+                            <Link to="/projects/music">App Development</Link>{' '}
+                            and {' '}
+                            <Link to="/projects/art">Cars</Link>. You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
                             playing video games.
                         </p>
                         <br />
-                        <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
-                        </p>
                     </div>
                     <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2022
+                                <b>Figure 2:</b> Me, Janurary 2024
                             </sub>
                         </p>
                     </div>
