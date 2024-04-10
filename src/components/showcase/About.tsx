@@ -84,7 +84,7 @@ const About: React.FC<AboutProps> = (props) => {
                             flex: 1,
                             textAlign: 'justify',
                             alignSelf: 'center',
-                            flexDirection: 'column',
+                            flexDirection: 'column'
                         }}
                     >
                         <h3>My Hobbies</h3>
@@ -100,6 +100,15 @@ const About: React.FC<AboutProps> = (props) => {
                             pages under my projects tab. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
                             playing video games.
+                        </p>
+                        <br />
+                        <p>
+                            Throughout university, I was an active part of the
+                            UTS Motorsports team, which you can read more about {' '}
+                            <Link to="/projects/music">Here</Link>
+                            . I thoroughly enjoyed every aspect of this venture,
+                            and it taught me a lot about various different coding
+                            practices and projects.
                         </p>
                         <br />
                     </div>
