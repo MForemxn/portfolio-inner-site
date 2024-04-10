@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import gsts from '../../../assets/pictures/projects/art/gsts.png';
 // @ts-ignore
 import house from '../../../assets/audio/house_master.mp3';
 // @ts-ignore
@@ -64,7 +65,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <br />
             <div className="captioned-image">
-                <img src={girlRun} alt="" />
+                <img src={gsts} alt="" />
                 <p>
                     <sub>
                         <b>Figure 1:</b> A collage of screenshots of the Fundy app.

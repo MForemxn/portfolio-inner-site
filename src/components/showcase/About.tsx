@@ -50,7 +50,7 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={me} style={styles.image} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> A real photo of me developing this
+                            <b>Figure 1:</b> A real photo of me brainstorming this
                             website :)
                         </sub>
                     </p>
