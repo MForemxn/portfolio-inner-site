@@ -153,7 +153,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://portfolio-inner-site-iota.vercel.app/"
+                        href="https://innersite.masonforeman.me/"
                     >
                         here
                     </a> and works as a standalone web
