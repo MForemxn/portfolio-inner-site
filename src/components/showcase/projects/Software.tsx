@@ -130,10 +130,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <br />
             </div>
             <div className="text-block">
-                <h2>masonforeman.com</h2>
+                <h2>masonforeman.me</h2>
                 <br />
                 <p>
-                    masonforeman.com is my personal portfolio website,
+                    masonforeman.me is my personal portfolio website,
                     and is the one you are currently on. Now I am
                     taking no credit for the idea behind this project,
                     all credit goes to Henry Heffernan, who is very
