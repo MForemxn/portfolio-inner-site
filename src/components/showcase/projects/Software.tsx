@@ -8,6 +8,7 @@ import gsts from '../../../assets/pictures/projects/art/gsts.png';
 import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
+import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
 
 export interface SoftwareProjectsProps {}
@@ -110,12 +111,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={scroll} />
+                    <img src={dnbDrumsProject} alt="" />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b> Skip the Scroll in action, finding
-                            the highest rated comments and scrolling right to
-                            them
+                            <b>Figure 3:</b> Our 2022 UTS Motorsports Car
                         </sub>
                     </p>
                 </div>
