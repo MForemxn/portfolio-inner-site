@@ -3,6 +3,7 @@ import React from 'react';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
+import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 
 export interface ArtProjectsProps {
 }
@@ -37,11 +38,10 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <img src={girlRun} alt="" />
+                    <img src={dnbDrumsProject} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Eight Frame Run cycle animated by
-                            myself, original sprite by kevink
+                            <b>Figure 1:</b> The UTS:ME Car from 2022
                         </sub>
                     </p>
                 </div>
