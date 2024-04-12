@@ -12,7 +12,7 @@ const CREDITS = [
     },
     {
         title: 'Engineering & Design',
-        rows: [['Henry Heffernan', 'All']],
+        rows: [['Mason Foreman', 'All']],
     },
     {
         title: 'Modeling & Texturing',
