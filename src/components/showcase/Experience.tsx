@@ -63,6 +63,59 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>Easter Egg Warehouse</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://www.eastereggwarehouse.com.au/'}
+                        >
+                            <h4>eastereggwarehouse.com.au</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>IT Manager</h3>
+                        <b>
+                            <p>Oct 2022 - Mar 2025</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    As IT Manager, I spearheaded the implementation and maintenance of all IT systems, ensuring seamless operations and driving technological innovation within the organization.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            • Managed and maintained all company IT infrastructure and systems
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Implemented new information systems and technologies to enhance business operations
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Provided technical support and troubleshooting for hardware and software issues
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Developed and maintained IT documentation and procedures
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Ensured data security and system integrity across all platforms
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>Code Camp</h1>
                         <a
                             target="_blank"
@@ -88,17 +141,22 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            🚀 Crafting a curriculum that combines creativity and learning, ensuring each child discovers the exciting world of coding, robotics, and digital innovation
+                            • Teaching programming fundamentals and computer science concepts
                         </p>
                     </li>
                     <li>
                         <p>
-                            🌐 Fostering a supportive environment that encourages curiosity and critical thinking
+                            • Developing and implementing technology-focused curriculum
                         </p>
                     </li>
                     <li>
                         <p>
-                            💡 Inspiring the next generation of tech enthusiasts, equipping them with valuable skills for the future
+                            • Managing classroom technology and troubleshooting technical issues
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Mentoring students in coding, robotics, and digital innovation
                         </p>
                     </li>
                 </ul>
@@ -125,7 +183,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    As a dedicated repair and service specialist at Tom Sparkes Oboes, I work with precision and care to maintain and restore brass and woodwind instruments to their optimal performance.
+                    As a dedicated repair and service specialist, I work with precision and care to maintain and restore brass and woodwind instruments to their optimal performance.
                 </p>
                 <br />
                 <ul>
@@ -149,49 +207,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Easter Egg Warehouse</h1>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href={'https://www.eastereggwarehouse.com.au/'}
-                        >
-                            <h4>eastereggwarehouse.com.au</h4>
-                        </a>
-                    </div>
-                    <div style={styles.headerRow}>
-                        <h3>Retail Salesworker</h3>
-                        <b>
-                            <p>Feb 2021 - Oct 2022</p>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <div className="text-block">
-                <p>
-                    Passionate retail professional with a strong dedication to delivering exceptional customer experiences. At Easter Egg Warehouse, I served as a retail salesperson, where I developed deep product knowledge and honed my ability to understand and meet customer needs.
-                </p>
-                <br />
-                <ul>
-                    <li>
-                        <p>
-                            • Focused on personalized service and building genuine relationships
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            • Developed deep product knowledge and customer service skills
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            • Created a welcoming atmosphere that encouraged repeat business
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
                         <h1>TurboUp LLC</h1>
                         <a
                             target="_blank"
@@ -202,7 +217,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Co-Founder</h3>
+                        <h3>Co-Founder & Developer</h3>
                         <b>
                             <p>Jun 2023 - Apr 2024</p>
                         </b>
@@ -211,23 +226,33 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Passionate about merging innovation with community, I led the charge as the Developer, Co-founder, and Marketing at TurboUp. I spearheaded the development of TurboUp, a groundbreaking social platform designed exclusively for car enthusiasts.
+                    As Co-Founder and Developer, I led the technical development of TurboUp, a social platform for car enthusiasts, overseeing all aspects of the product's technical implementation.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            👨‍💻 Driving the technical vision and development of the platform
+                            • Led full-stack development of the platform using modern web technologies
                         </p>
                     </li>
                     <li>
                         <p>
-                            🤝 Co-founding and leading strategic decisions for the company
+                            • Designed and implemented scalable architecture and database systems
                         </p>
                     </li>
                     <li>
                         <p>
-                            📢 Managing marketing efforts and brand awareness campaigns
+                            • Managed cloud infrastructure and deployment processes
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Implemented security best practices and data protection measures
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Oversaw technical team and development workflows
                         </p>
                     </li>
                 </ul>
