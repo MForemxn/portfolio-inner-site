@@ -14,9 +14,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://www.cdm.com.au/'}
+                            href={'https://cdmcomputers.com.au/'}
                         >
-                            <h4>cdm.com.au</h4>
+                            <h4>cdmcomputers.com.au</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
