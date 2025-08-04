@@ -10,6 +10,59 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>CDM Computer Services</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://cdmcomputers.com.au/'}
+                        >
+                            <h4>cdmcomputers.com.au</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Information Technology Support Consultant</h3>
+                        <b>
+                            <p>Apr 2025 - Present</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    As an IT Support Consultant at CDM Computer Services, I provide onsite, remote, and helpdesk support to businesses across Sydney. My role involves troubleshooting hardware and software issues, managing support tickets, and ensuring smooth IT operations for clients.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            • Diagnosing and resolving technical issues across various environments
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Supporting Microsoft desktop operating systems in Active Directory networks
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Installing, upgrading, and maintaining hardware, software, and peripherals
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Managing and documenting client IT systems
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Providing excellent customer service and technical guidance
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>Easter Egg Warehouse</h1>
                         <a
                             rel="noreferrer"
@@ -20,41 +73,42 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>IT Consultant</h3>
+                        <h3>IT Manager</h3>
                         <b>
-                            <p>Feb 2021 - Present</p>
+                            <p>Oct 2022 - Mar 2025</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    What started as a simple part time retail job, has progressed into
-                    a IT Consultant role. My key responsibilities include site maintenance,
-                    internal IT systems maintenance, new information systems implimentation,
-                    and much more.
+                    As IT Manager, I spearheaded the implementation and maintenance of all IT systems, ensuring seamless operations and driving technological innovation within the organization.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            🛒 Bringing a blend of customer service and tech
-                            expertise to the Easter Egg Warehouse, I serve as
-                            a dedicated Retail Staff member and occasional IT support.
+                            • Managed and maintained all company IT infrastructure and systems
                         </p>
                     </li>
                     <li>
                         <p>
-                            🐣 My focus on creating delightful customer
-                            experiences aligns with ensuring the smooth operation
-                            of our warehouse through handling occasional technical
-                            challenges.
+                            • Implemented new information systems and technologies to enhance business operations
                         </p>
                     </li>
                     <li>
                         <p>
-                            💻 Balancing the sweetness of retail with the precision
-                            of IT, I contribute to a seamless and efficient work environment.
+                            • Provided technical support and troubleshooting for hardware and software issues
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Developed and maintained IT documentation and procedures
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Ensured data security and system integrity across all platforms
                         </p>
                     </li>
                 </ul>
@@ -72,7 +126,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Part Time Holiday Camp Teacher</h3>
+                        <h3>Holiday Camp Teacher</h3>
                         <b>
                             <p>Jan 2022 - Present</p>
                         </b>
@@ -81,38 +135,28 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Shared my love of technology with the new generation through holiday
-                    camp facilitating and teaching. These 2-3 day camps are of school aged
-                    children, about various different topics surrounding technology and
-                    computers. Through this, I was able to test my knowledge and improve
-                    upon it through teaching.
+                    As the Head Teacher at Code Camp, I lead a dynamic team in providing immersive and engaging tech education experiences for students aged 5-13 during holiday camps.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            🚀 Joining Code Camp as the Head Teacher, I lead a
-                            dynamic team in providing immersive and engaging
-                            tech education experiences for students aged 5-13
-                            during holiday camps.
+                            • Teaching programming fundamentals and computer science concepts
                         </p>
                     </li>
                     <li>
                         <p>
-                            🌐 My role involves crafting a curriculum that
-                            combines creativity and learning, ensuring each
-                            child discovers the exciting world of coding,
-                            robotics, and digital innovation.
+                            • Developing and implementing technology-focused curriculum
                         </p>
                     </li>
                     <li>
                         <p>
-                            💡 As a passionate advocate for tech education, I
-                            foster a supportive environment that encourages
-                            curiosity and critical thinking. Together with my
-                            team, we inspire the next generation of tech
-                            enthusiasts, equipping them with valuable skills for
-                            the future.
+                            • Managing classroom technology and troubleshooting technical issues
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Mentoring students in coding, robotics, and digital innovation
                         </p>
                     </li>
                 </ul>
@@ -120,7 +164,50 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>TurboUp</h1>
+                        <h1>Tom Sparkes Instrument Repairs</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://www.tomsparkes.com/'}
+                        >
+                            <h4>tomsparkes.com</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Instrument Repair Technician</h3>
+                        <b>
+                            <p>Dec 2019 - Present</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    As a dedicated repair and service specialist, I work with precision and care to maintain and restore brass and woodwind instruments to their optimal performance.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            • Diagnosing and addressing mechanical issues and performance concerns
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Conducting thorough maintenance and tuning to enhance sound quality and playability
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Upholding the highest standards of craftsmanship and quality assurance
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>TurboUp LLC</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
@@ -130,50 +217,42 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Developer | Co-founder | Marketing</h3>
+                        <h3>Co-Founder & Developer</h3>
                         <b>
-                            <p>Jun 2023 - Present</p>
+                            <p>Jun 2023 - Apr 2024</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    Passionate about merging innovation with community, I lead
-                    the charge as the Developer, Co-founder, and Marketing at
-                    TurboUp. In the driver's seat from day one, I've spearheaded
-                    the development of TurboUp, a groundbreaking social platform
-                    designed exclusively for car enthusiasts.
+                    As Co-Founder and Developer, I led the technical development of TurboUp, a social platform for car enthusiasts, overseeing all aspects of the product's technical implementation.
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            👨‍💻 Developer: Driving the technical vision, I
-                            navigate the coding highway, steering TurboUp toward
-                            a seamless user experience. From the engine room to
-                            the user interface, my mission is to revitalize the
-                            digital landscape for car aficionados.
+                            • Led full-stack development of the platform using modern web technologies
                         </p>
                     </li>
                     <li>
                         <p>
-                            🤝 Co-founder: In the trenches from the ideation
-                            stage, I co-founded TurboUp to revolutionize how the
-                            car community connects. Every line of code and
-                            strategic decision is geared toward fostering a
-                            vibrant, dynamic space for car enthusiasts to share
-                            their passion.
+                            • Designed and implemented scalable architecture and database systems
                         </p>
                     </li>
                     <li>
                         <p>
-                            📢 Marketing: Beyond coding, I wear the hat of Head
-                            of Marketing, fueling TurboUp's reach. Crafting
-                            campaigns that resonate, I accelerate our brand
-                            awareness and drive engagement. TurboUp isn't just
-                            an app; it's a movement, and I'm steering the
-                            marketing wheel.
+                            • Managed cloud infrastructure and deployment processes
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Implemented security best practices and data protection measures
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            • Oversaw technical team and development workflows
                         </p>
                     </li>
                 </ul>
