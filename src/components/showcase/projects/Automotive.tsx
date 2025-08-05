@@ -92,7 +92,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 <br />
                 <p>
                     My first car and the one that started it all. This 2016 Series 2 VF Commodore
-                    in Slipstream Blue was completely stock (with the exception of a waaay to loud exhaust) - no modifications, just enjoyed
+                    in Slipstream Blue was completely stock (with the exception of a waaay to loud exhaust and some fully sick rims) - no modifications, just enjoyed
                     exactly as it came from the factory. This car taught me the fundamentals
                     of car ownership, maintenance, and the Australian automotive culture.
                 </p>
