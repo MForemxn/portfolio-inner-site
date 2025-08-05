@@ -4,6 +4,8 @@ import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
+import vfCommodore from '../../../assets/pictures/projects/automotive/vf-commodore.png';
+import vwGolf from '../../../assets/pictures/projects/automotive/vw-golf.png';
 
 export interface ArtProjectsProps {
 }
@@ -77,6 +79,71 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </p>
                 <br />
             </div>
+            <div className="text-block">
+                <h2>Cars I've Owned, Modified, and Loved</h2>
+                <br />
+                <p>
+                    Over the years, I've had the pleasure of owning and working on
+                    some fantastic cars. Each one has taught me something different
+                    about automotive engineering, modification, and the pure joy of driving.
+                </p>
+                <br />
+                <h3>1. 2016 Slipstream Blue VF Commodore</h3>
+                <br />
+                <p>
+                    My first car and the one that started it all. This 2016 Series 2 VF Commodore
+                    in Slipstream Blue was completely stock (with the exception of a waaay to loud exhaust) - no modifications, just enjoyed
+                    exactly as it came from the factory. This car taught me the fundamentals
+                    of car ownership, maintenance, and the Australian automotive culture.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={vfCommodore} alt="" />
+                    <p>
+                        <sub>
+                            <b>Figure 2:</b> My 2016 Slipstream Blue VF Commodore
+                        </sub>
+                    </p>
+                </div>
+                <br />
+                <h3>2. 2017 MK7 VW Golf GTI</h3>
+                <br />
+                <p>
+                    My current project car and the one that really got me into modifications.
+                    This 2017 MK7 Golf GTI has been extensively modified with:
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>• Revo Stage 2+ ECU tune</p>
+                    </li>
+                    <li>
+                        <p>• Wagner Performance downpipe</p>
+                    </li>
+                    <li>
+                        <p>• Leyo Motorsports cold air intake</p>
+                    </li>
+                    <li>
+                        <p>• Xtreme 600nm clutch with single mass flywheel</p>
+                    </li>
+                </ul>
+                <br />
+                <p>
+                    This car has been an incredible learning experience, teaching me about
+                    forced induction, engine management, and the importance of supporting
+                    modifications when pushing power levels.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={vwGolf} alt="" />
+                    <p>
+                        <sub>
+                            <b>Figure 3:</b> My 2017 MK7 VW Golf GTI
+                        </sub>
+                    </p>
+                </div>
+                <br />
+            </div>
             <br />
 
             <h3>Links:</h3>
@@ -105,15 +172,6 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     </a>
                 </li>
             </ul>
-            <br />
-            <div className="captioned-image">
-                <img src={houseProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> My Own Little Project Car: 2016 Series 2 VF Commodore
-                    </sub>
-                </p>
-            </div>
             <br />
             <p>
                 This page is currently a work in progress. I've recently
