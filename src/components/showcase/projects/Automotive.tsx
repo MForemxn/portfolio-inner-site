@@ -126,6 +126,15 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     <li>
                         <p>• Xtreme 600nm clutch with single mass flywheel</p>
                     </li>
+                    <li>
+                        <p>• IS38 Turbocharger</p>
+                    </li>
+                    <li>
+                        <p>• Invidia R400 Exhaust</p>
+                    </li>
+                    <li>
+                        <p>• Ground Zero 12" Subwoofer with Cerwin Vega Amplifier</p>
+                    </li>
                 </ul>
                 <br />
                 <p>
