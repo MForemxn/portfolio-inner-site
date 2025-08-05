@@ -88,7 +88,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     about automotive engineering, modification, and the pure joy of driving.
                 </p>
                 <br />
-                <h3>1. 2016 Slipstream Blue VF Commodore</h3>
+                <h3>1. 2016 Slipstream Blue Series 2 VF Commodore</h3>
                 <br />
                 <p>
                     My first car and the one that started it all. This 2016 Series 2 VF Commodore
@@ -106,7 +106,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     </p>
                 </div>
                 <br />
-                <h3>2. 2017 MK7 VW Golf GTI</h3>
+                <h3>2. 2017 MK7 VW Golf GTI Manual</h3>
                 <br />
                 <p>
                     My current project car and the one that really got me into modifications.
@@ -115,19 +115,19 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 <br />
                 <ul>
                     <li>
+                        <p>• IS38 Turbocharger</p>
+                    </li>
+                    <li>
                         <p>• Revo Stage 2+ ECU tune</p>
                     </li>
                     <li>
                         <p>• Wagner Performance downpipe</p>
                     </li>
                     <li>
-                        <p>• Leyo Motorsports cold air intake</p>
-                    </li>
-                    <li>
                         <p>• Xtreme 600nm clutch with single mass flywheel</p>
                     </li>
                     <li>
-                        <p>• IS38 Turbocharger</p>
+                        <p>• Leyo Motorsports cold air intake</p>
                     </li>
                     <li>
                         <p>• Invidia R400 Exhaust</p>
