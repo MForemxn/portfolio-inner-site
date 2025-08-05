@@ -72,8 +72,9 @@ const About: React.FC<AboutProps> = (props) => {
                     the Easter Egg Warehouse. Whilst this initially started as a
                     warehouse and retail job, I was soon able to start working
                     on some IT projects, primarily focusing on frontend work.
-                    As of 2024, I still work there, and I continue to work on
-                    various IT projects. I am currently looking for a new role
+                    As of March 2025, I am now working with CDM Computers, where
+                    I continue to work on various IT projects and expand my
+                    technical skills. I am currently looking for a new role
                     in the IT sector.
                 </p>
                 <br />

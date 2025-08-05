@@ -12,6 +12,7 @@ import houseProject from '../../../assets/pictures/projects/audio/houseProject.p
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.png';
+import talk2me from '../../../assets/pictures/projects/software/talk2me.PNG';
 
 export interface MusicProjectsProps {}
 
@@ -107,6 +108,35 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 as the merchandise. All in all, was a big effort, but every part
                 of the experience was helpful and enjoyable.
             </p>
+            <br />
+            <h2>Talk2Me</h2>
+            <br />
+            <p>
+                Talk2Me is a voice conversation app that enables natural speech-to-speech interactions with AI. 
+                Available as both an iOS app and web application, it provides real-time voice conversations with 
+                intelligent AI responses.
+            </p>
+            <br />
+            <p>
+                The app features continuous speech recognition, AI conversation processing through an N8N workflow, 
+                and high-quality voice synthesis using ElevenLabs. It includes cross-platform compatibility, 
+                multiple voice selection options, and comprehensive settings management for API keys and preferences.
+            </p>
+            <br />
+            <p>
+                The iOS app is built with SwiftUI and includes native audio session management, while the web 
+                application uses React/Next.js with TypeScript and Web Speech API integration. Both platforms 
+                provide seamless conversation flow with automatic listening and speaking cycles.
+            </p>
+            <br />
+            <div className="captioned-image">
+                <img src={talk2me} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 3:</b> Talk2Me voice conversation interface
+                    </sub>
+                </p>
+            </div>
             <br />
             <h2>The Future of my App Development</h2>
             <br />
