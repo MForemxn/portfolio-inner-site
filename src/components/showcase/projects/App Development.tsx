@@ -12,7 +12,7 @@ import houseProject from '../../../assets/pictures/projects/audio/houseProject.p
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.png';
-import talk2me from '../../../assets/pictures/projects/software/talk2me.PNG';
+import talk2me from '../../../assets/pictures/projects/software/talk2me.png';
 
 export interface MusicProjectsProps {}
 
