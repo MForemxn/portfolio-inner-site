@@ -10,6 +10,8 @@ import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
+import sitePlaceholder from '../../../assets/pictures/projects/software/talk2me.png';
+import cliPlaceholder from '../../../assets/pictures/projects/software/talk2me.png';
 
 export interface SoftwareProjectsProps {}
 
@@ -25,6 +27,39 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             </p>
             <br />
             <ResumeDownload />
+            <br />
+            <div className="text-block">
+                <h2>Networking Fundamentals Learning Platform</h2>
+                <br />
+                <p>
+                    A modern, interactive training app that teaches core computer networking concepts
+                    through 8 structured modules and a hands-on simulator. Built with Next.js, TypeScript,
+                    Tailwind, and Framer Motion, it features progress tracking, bookmarking, and strong
+                    accessibility. The in-browser Network Simulator lets you place devices, connect links,
+                    and configure routers/switches via a pseudo-Cisco-style CLI (e.g. configure terminal,
+                    interface, ip address, vlan, switchport, ip route, ping, write memory). Deployed on Vercel.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={sitePlaceholder} alt="Networking platform full site overview" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 1:</b> Full site overview with modules, search, and bookmarks
+                        </sub>
+                    </p>
+                </div>
+                <div className="captioned-image">
+                    <img src={cliPlaceholder} alt="Simulator CLI showing device configuration commands" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 2:</b> Simulator CLI configuring interfaces, VLANs, and routes
+                        </sub>
+                    </p>
+                </div>
+                <p>
+                    Live: <a rel="noreferrer" target="_blank" href="https://nlearn.masonforeman.me">nlearn.masonforeman.me</a>
+                </p>
+            </div>
             <br />
             <div className="text-block">
                 <h2>TurboUp App</h2>
