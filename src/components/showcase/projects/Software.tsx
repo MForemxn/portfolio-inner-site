@@ -10,8 +10,9 @@ import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
-import sitePlaceholder from '../../../assets/pictures/projects/software/talk2me.png';
-import cliPlaceholder from '../../../assets/pictures/projects/software/talk2me.png';
+import fullnlearn from '../../../assets/pictures/projects/software/fullnlearn.png';
+import fullnlearnsim from '../../../assets/pictures/projects/software/fullnlearnsim.png';
+import nlearncli from '../../../assets/pictures/projects/software/nlearncli.png';
 
 export interface SoftwareProjectsProps {}
 
@@ -41,7 +42,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <img src={sitePlaceholder} alt="Networking platform full site overview" />
+                    <img src={fullnlearn} alt="Networking platform full site overview" />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 1:</b> Full site overview with modules, search, and bookmarks
@@ -49,10 +50,18 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </p>
                 </div>
                 <div className="captioned-image">
-                    <img src={cliPlaceholder} alt="Simulator CLI showing device configuration commands" />
+                    <img src={fullnlearnsim} alt="Network simulator interface with devices and connections" />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 2:</b> Simulator CLI configuring interfaces, VLANs, and routes
+                            <b>Figure 2:</b> Network simulator with drag-and-drop devices and link visualization
+                        </sub>
+                    </p>
+                </div>
+                <div className="captioned-image">
+                    <img src={nlearncli} alt="Simulator CLI showing device configuration commands" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 3:</b> Simulator CLI configuring interfaces, VLANs, and routes
                         </sub>
                     </p>
                 </div>
