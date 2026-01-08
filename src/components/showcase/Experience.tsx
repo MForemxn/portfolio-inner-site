@@ -20,7 +20,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Information Technology Support Consultant</h3>
+                        <h3>IT Support Consultant</h3>
                         <b>
                             <p>Apr 2025 - Present</p>
                         </b>
@@ -29,36 +29,24 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    As an IT Support Consultant at CDM Computer Services, I provide onsite, remote, and helpdesk support to businesses across Sydney. My role involves troubleshooting hardware and software issues, managing support tickets, and ensuring smooth IT operations for clients.
+                    As an IT Support Consultant at CDM Computer Services, I work across two core areas of the business: managed IT services for commercial clients and large-scale event networking delivered through our sister company, Quorix.
                 </p>
                 <br />
-                <ul>
-                    <li>
-                        <p>
-                            • Diagnosing and resolving technical issues across various environments
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            • Supporting Microsoft desktop operating systems in Active Directory networks
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            • Installing, upgrading, and maintaining hardware, software, and peripherals
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            • Managing and documenting client IT systems
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            • Providing excellent customer service and technical guidance
-                        </p>
-                    </li>
-                </ul>
+                <p>
+                    On the MSP side, I provide comprehensive onsite, remote, and helpdesk support to businesses across Australia, supporting end users across a wide range of environments. My work is primarily focused on Windows-based systems, but I regularly support all major platforms and devices in mixed environments. I work extensively with Microsoft technologies, including user and device administration, Microsoft 365 administration, and the management of on-premises Active Directory and Exchange servers.
+                </p>
+                <br />
+                <p>
+                    My responsibilities extend beyond end user support into core infrastructure. I am involved in deploying, configuring, and troubleshooting corporate networking environments, including switches, routers, and firewalls. This work covers both physical and logical layers, from cabling and hardware installs through to VLANs, routing, firewall rules, and network fault isolation. I also handle hardware and software installations, upgrades, system documentation, and ongoing maintenance to ensure client environments remain stable, secure, and scalable.
+                </p>
+                <br />
+                <p>
+                    Through our sister company, Quorix, I am also involved in the planning, deployment, operation, and monitoring of temporary and semi-permanent networks for live events such as concerts and festivals. This includes building resilient wired and wireless networks under tight timeframes, supporting mission-critical connectivity during live operations, and assisting with event CCTV deployments.
+                </p>
+                <br />
+                <p>
+                    This role allows me to work across both traditional business IT and high-pressure event infrastructure, combining strong end user support with hands-on infrastructure delivery in dynamic environments.
+                </p>
             </div>
 
             <div style={styles.headerContainer}>
